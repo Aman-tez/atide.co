@@ -1,0 +1,482 @@
+.bg1 {
+    position: absolute;
+    width: 460px;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.error {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(15, 15, 15, 0.308);
+    width: 376px;
+    height: 90px;
+    margin-left: -7.6px;
+    margin-top: -15px;
+}
+
+@font-face {
+    font-family: "Kaushan Script rev=2";
+    src: url(KaushanScript-Regular.ttf);
+}
+
+.logo1 {
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: "Kaushan Script rev=2";
+    font-size: 45px;
+    color: rgb(44, 44, 44);
+}
+
+.menuicon {
+    width: 45px;
+    margin-top: 25px;
+    margin-left: 310px;
+}
+
+#menu1 {
+    background-color: rgb(37, 37, 37);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 170px;
+    display: none;
+}
+
+#menu1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Calibri";
+}
+
+.home {
+    padding-top: 10px;
+}
+
+.section1 {
+    margin-top: 180px;
+    margin-left: 10px;
+}
+
+.section1 h1 {
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: rgb(61, 61, 61);
+}
+
+.section1 .p1 {
+    font-size: 18px;
+    font-family: "Dm sans", sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(66, 64, 64);
+}
+
+.section1 .button1 {
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 300px;
+    height: 70px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(66, 64, 64);
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+}
+
+.section1 .button1:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    color: rgb(56, 56, 56);
+}
+
+.card1 {
+    width: 320px;
+    height: 640px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 150px;
+    background-color: rgb(43, 43, 43);
+}
+
+.card1 .num1,
+.num2,
+.num3,
+.num4 {
+    font-size: 45px;
+    font-family: "Calibri";
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(156, 156, 156);
+}
+
+.card1 .num1-content,
+.num2-content,
+.num3-content,
+.num4-content {
+    font-size: 24px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.num2,
+.num3,
+.num4 {
+    margin-top: 35px;
+    color: rgb(156, 156, 156);
+}
+
+.section2 {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 1220px;
+}
+
+.app1 {
+    background-color: rgba(61, 61, 61, 0.397);
+    width: 100%;
+    height: 480px;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.app {
+    margin-top: -520px;
+}
+
+.section2 .txt1 {
+    font-family: "Calibri";
+    font-size: 38px;
+    font-weight: 800;
+    padding-top: 60px;
+    color: rgb(66, 64, 64);
+    text-align: center;
+}
+
+.section2 .txt2 {
+    font-size: 30px;
+    font-family: "Calibri";
+    font-weight: 900;
+    padding-top: 30px;
+    margin-left: 28px;
+    color: rgb(66, 64, 64);
+}
+
+.ide {
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ide-txt {
+    margin-left: 180px;
+    margin-top: -120px;
+    font-size: 40px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(56, 56, 56);
+}
+
+.app-txt {
+    font-size: 22px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(82, 82, 82);
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+.app-txt1 {
+    font-size: 15px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(82, 82, 82);
+    margin-left: 180px;
+    margin-top: 2px;
+}
+
+.details {
+    font-size: 22px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(66, 64, 64);
+}
+
+.details .size {
+    padding-left: 25px;
+}
+
+.details .downloads {
+    padding-left: 25px;
+}
+
+.v-dash1,
+.v-dash2 {
+    margin-left: 25px;
+}
+
+.rating1,
+.size1,
+.downloads1 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Calibri";
+    color: rgb(66, 64, 64);
+}
+
+.rating1 {
+    margin-left: 10px;
+    color: rgb(94, 94, 94);
+}
+
+.size1 {
+    margin-left: 50px;
+    color: rgb(94, 94, 94);
+}
+
+.downloads1 {
+    margin-left: 70px;
+    color: rgb(94, 94, 94);
+}
+
+.whats-new {
+    font-size: 26px;
+    font-family: "Calibri";
+    font-weight: 900;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(66, 64, 64);
+}
+
+.update {
+    font-size: 15px;
+    font-family: "Calibri";
+    font-weight: 900px;
+    margin-left: 20px;
+    color: rgb(94, 94, 94);
+}
+
+.whats-new-txt {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(94, 94, 94);
+}
+
+.whats-new-txt1 {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(107, 107, 107);
+}
+
+.dash1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.dash2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.details-1 {
+    margin-top: 10px;
+}
+
+.download {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: 16px;
+    background: transparent;
+    color: rgb(66, 64, 64);
+    transition: 0.5s;
+}
+
+.download:hover {
+    background-color: rgb(32, 32, 32);
+    border-color: rgb(22, 22, 22);
+    color: rgb(109, 109, 109);
+}
+
+.section3 {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 380px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.about-us {
+    font-size: 36px;
+    font-family: "Calibri";
+    font-weight: 900;
+    padding-top: 30px;
+    margin-left: 20px;
+    color: rgb(107, 107, 107);
+}
+
+.founder {
+    width: 140px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.founder-txt {
+    font-size: 28px;
+    font-family: "Calibri";
+    font-weight: 900;
+    margin-top: -140px;
+    margin-left: 180px;
+    display: flex;
+    color: rgb(95, 95, 95);
+}
+
+.founder-txt1 {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 180px;
+    margin-top: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.ceo-contact {
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: 18px;
+    background: transparent;
+    color: rgb(80, 80, 80);
+    transition: 0.5s;
+}
+
+.ceo-contact:hover {
+    background-color: rgba(75, 75, 75, 0.534);
+    color: rgb(26, 26, 26);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: -7.6px;
+    width: 376px;
+    height: 1050px;
+    z-index: -1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.insta {
+    width: 40px;
+    display: flex;
+}
+
+.fb {
+    width: 32px;
+    display: flex;
+    margin-top: -37px;
+    margin-left: 70px;
+}
+
+.twit {
+    width: 36px;
+    display: flex;
+    margin-top: -34px;
+    margin-left: 140px;
+}
+
+.icon-txt,
+.txt-2,
+.txt-3,
+.txt-4 {
+    font-size: 34px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(44, 44, 44);
+}
+
+.courses,
+.about,
+.contact {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.courses a,
+.about a,
+.contact a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Calibri";
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+    line-height: 40px;
+}
+
+.courses a:hover,
+.about a:hover,
+.contact a:hover {
+    color: blanchedalmond;
+}
+
+.dash {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(66, 64, 64);
+}
+
+.copywrite {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: "Calibri";
+    font-weight: 600;
+    color: rgb(66, 64, 64);
+}
+
+.copywrite span {
+    margin-left: 40px;
+}
