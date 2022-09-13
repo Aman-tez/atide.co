@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+</head>
+
+<body class="body">
+    <div class="login">
+        <form action="index.html" class="form">
+
+            <h1 id="h1">Atide.co</h1>
+            <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+            <div class="input-group">
+                <input type="text" name="username" id="username" required>
+                <label>User Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password" id="password" required>
+                <label>Password</label>
+            </div>
+            <!--<input type="submit" value="Login" class="submit-btn"> -->
+            <button class="Aman" onclick="check(form)"> Login </button>
+
+
+</body>
+
+</html>
+
+
+
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .body {
+        background: url("1626274762590.jpg");
+        /*   background:url("https://i.ibb.co/2tyjSTt/Aman-tez.jpg") */
+        /*   background: linear-gradient(90deg, #ff007f 0%, #ff9700 100%);   */
+        background-repeat: no-repeat;
+        background-size: 160vh;
+        position: fixed;
+    }
+    
+    .login {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form {
+        position: relative;
+        width: 700px;
+        height: 700px;
+        padding: 80px 40px 40px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.9);
+        border-radius: 12px;
+    }
+    
+    .form::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.08);
+        transform: skewX(-26deg);
+        transform-origin: bottom left;
+        border-radius: 10px;
+        pointer-events: none;
+    }
+    
+    .form h1 {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+        background-image: linear-gradient(90deg, #ff2e58 0%, #f86464 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Aladin;
+        font-size: 100px;
+    }
+    
+    .input-group {
+        position: relative;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background-color: transparent;
+        color: inherit;
+        line-height: 60px;
+    }
+    
+    .input-group label {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        padding: 10px 0;
+        font-size: 1.3em;
+        pointer-events: none;
+        transition: .3s ease-out;
+        font-family: Aladin;
+        font-size: 40px;
+    }
+    
+    .input-group input:focus+label,
+    .input-group input:valid+label {
+        transform: translateY(-18px);
+        color: #ff652f;
+        font-size: 30px;
+    }
+    
+    .copyright {
+        position: static;
+        bottom: -4px;
+        text-shadow: 2px 4px 7px black;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .Aman {
+        border-radius: 50px 50px;
+        padding: 6px 35px;
+        border: 1px solid rgba(78, 78, 78, 0.39);
+        width: 350px;
+        margin-left: 130px;
+        height: 80px;
+        background: #ff466b;
+        font-family: Aladin;
+        font-size: 40px;
+        margin-top: 60px;
+    }
+</style>
+
+
+
+
+<script>
+    function check(form) {
+
+        if (form.username.value == "Atide.co", form.password.value == "@atide.co") {
+            // window.open('https://aman-tez.github.io/atide.co')
+        } else {
+            alert("Wrong password")
+        }
+    }
+</script>
