@@ -1,0 +1,31 @@
+@media screen and (min-width:490px) {
+    .bg,
+    .section1,
+    .loader,
+    .card1,
+    .section2,
+    .details-1,
+    .section3,
+    footer {
+        display: none;
+    }
+    .error {
+        display: block;
+        margin-top: -30%;
+        overflow: hidden;
+    }
+    .error1 {
+        width: 800px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .error-txt {
+        font-size: 35px;
+        font-family: calibri;
+        font-weight: 900;
+        color: rgb(58, 58, 58);
+        text-align: center;
+        margin-top: -280px;
+        line-height: 45px;
+    }
+}
