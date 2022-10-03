@@ -1,4 +1,4 @@
-@media screen and (min-width:390px) {
+@media screen and (min-width:380px) {
     .bg,
     .section1,
     .loader,
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
     .bg,
     .section1,
     .loader,
