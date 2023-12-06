@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+</head>
+
+<body class="body">
+    <div class="login">
+        <form action="" class="form">
+
+            <h1 id="h1">Atide.co</h1>
+            <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+            <div class="input-group">
+                <input type="text" name="username" id="username" required>
+                <label>User Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password" id="password" required>
+                <label>Password</label>
+            </div>
+            <!--<input type="submit" value="Login" class="submit-btn"> -->
+            <button class="Aman" onclick="check(form)"> Login </button>
+        </form>
+    </div>
+    <div class="error">
+        <img src="404.gif" alt="" class="error1">
+        <div class="error-txt">Your device width is unsupported <br> for this website!!</div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .error {
+        display: none;
+    }
+    
+    .body {
+        background: url("1626274762590.jpg");
+        background-repeat: no-repeat;
+        background-size: 160vh;
+        position: fixed;
+    }
+    
+    .login {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .error1 {
+        display: none;
+    }
+    
+    .form {
+        position: relative;
+        width: 700px;
+        height: 700px;
+        padding: 80px 40px 40px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.9);
+        border-radius: 12px;
+    }
+    
+    .form::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.08);
+        transform: skewX(-26deg);
+        transform-origin: bottom left;
+        border-radius: 10px;
+        pointer-events: none;
+    }
+    
+    .form h1 {
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+        background-image: linear-gradient(90deg, #ff2e58 0%, #f86464 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Aladin;
+        font-size: 100px;
+    }
+    
+    .input-group {
+        position: relative;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background-color: transparent;
+        color: inherit;
+        line-height: 60px;
+    }
+    
+    .input-group label {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        padding: 10px 0;
+        font-size: 1.3em;
+        pointer-events: none;
+        transition: .3s ease-out;
+        font-family: Aladin;
+        font-size: 40px;
+    }
+    
+    .input-group input:focus+label,
+    .input-group input:valid+label {
+        transform: translateY(-18px);
+        color: #ff652f;
+        font-size: 30px;
+    }
+    
+    .copyright {
+        position: static;
+        bottom: -4px;
+        text-shadow: 2px 4px 7px black;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .Aman {
+        border-radius: 50px 50px;
+        padding: 6px 35px;
+        border: 1px solid rgba(78, 78, 78, 0.39);
+        width: 350px;
+        margin-left: 130px;
+        height: 80px;
+        background: #ff466b;
+        font-family: Aladin;
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        .login,
+        body {
+            display: none;
+        }
+        .error {
+            display: block;
+        }
+        .error1 {
+            margin-top: -500px;
+            width: 800px;
+            margin-left: 200px;
+        }
+        .error-txt {
+            font-size: 50px;
+            font-family: calibri;
+            font-weight: 900;
+            color: rgb(58, 58, 58);
+            text-align: center;
+            margin-top: -500px;
+            line-height: 60px;
+        }
+    }
+    
+    @media screen and (min-width:490px) {
+        .bg,
+        .section1,
+        .card1,
+        .section2,
+        .details-1,
+        .section3,
+        footer {
+            display: none;
+        }
+        .error {
+            display: block;
+        }
+        .error1 {
+            margin-top: -300px;
+        }
+        .error-txt {
+            font-size: 35px;
+            font-family: calibri;
+            font-weight: 900;
+            color: rgb(58, 58, 58);
+            text-align: center;
+            margin-top: -280px;
+            line-height: 45px;
+        }
+    }
+    
+    @media screen and (min-width:378px) {
+        .bg,
+        .section1,
+        .card1,
+        .section2,
+        .details-1,
+        .section3,
+        footer {
+            display: none;
+        }
+        .error {
+            display: block;
+        }
+        .error1 {
+            width: 100%;
+            margin-top: -40px;
+        }
+        .error-txt {
+            font-size: 20px;
+            font-family: calibri;
+            font-weight: 900;
+            color: rgb(58, 58, 58);
+            text-align: center;
+            margin-top: -180px;
+            line-height: 32px;
+        }
+    }
+</style>
+
+
+
+<!--
+<script>
+    function check(form) {
+
+        if (form.username.value == "Atide.co", form.password.value == "@atide.co") {
+            window.open('index.html')
+        } else {
+            alert("Wrong password")
+        }
+    }
+</script>-->
+
+<script>
+    function check(form) {
+
+        if (form.username.value == "atide.co") {} else {
+            alert("Wrong username")
+        }
+
+        if (form.password.value == "@atide.co") {} else {
+            alert("Wrong password")
+        }
+        if (form.username.value == "atide.co", form.password.value == "@atide.co") {
+            window.open('website.html')
+        }
+    }
+</script>

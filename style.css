@@ -1,0 +1,544 @@
+body {
+    width: auto;
+}
+
+.loader {
+    background-color: #E1E1E1;
+    margin: -10px -10px;
+    height: 730px;
+    overflow: hidden;
+}
+
+.loader1 {
+    width: 100%;
+    margin-left: -10px;
+    padding-left: 10px;
+    margin-top: 200px;
+}
+
+.loading {
+    display: flex;
+    margin-left: 140px;
+    margin-top: -90px;
+    font-size: 35px;
+    font-family: calibri;
+    font-weight: 600;
+    color: #181818f3;
+}
+
+#main {
+    display: none;
+}
+
+.bg1 {
+    position: absolute;
+    width: 104%;
+    margin-left: -5%;
+    z-index: -1;
+}
+
+.error {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 106%;
+    height: 90px;
+    margin-top: -10px;
+    margin-left: -7.6px;
+    top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@font-face {
+    font-family: "Kaushan Script rev=2";
+    src: url(KaushanScript-Regular.ttf);
+}
+
+.logo1 {
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    font-family: "Kaushan Script rev=2";
+    font-size: 45px;
+    color: rgb(37, 37, 37);
+}
+
+.menuicon {
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+#menu1 {
+    background-color: rgba(37, 37, 37, 0.37);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 170px;
+    display: none;
+    transition: 0.5s;
+}
+
+#menu1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Calibri";
+}
+
+.home {
+    padding-top: 10px;
+}
+
+.section1 {
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+.section1 h1 {
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(37, 37, 37);
+}
+
+.section1 .p1 {
+    font-size: 17px;
+    font-family: "Dm sans", sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(83, 83, 83);
+}
+
+.section1 .button1 {
+    border: 2px solid;
+    border-radius: 20px;
+    /* margin-top: 40px;
+    margin-left: 20px; */
+    width: 300px;
+    height: 70px;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+}
+
+.section1 .button1:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+    color: rgb(56, 56, 56);
+}
+
+.card1 {
+    width: 320px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 60px;
+    background-color: rgb(44, 44, 44);
+    transform: translateX(10%);
+}
+
+.card1 .num1,
+.num2,
+.num3,
+.num4 {
+    font-size: 36px;
+    font-family: "Calibri";
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(192, 192, 192);
+}
+
+.card1 .num1-content,
+.num2-content,
+.num3-content,
+.num4-content {
+    font-size: 17px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(126, 126, 126);
+}
+
+.num2,
+.num3,
+.num4 {
+    margin-top: 35px;
+    color: rgb(192, 192, 192);
+}
+
+.num4-content {
+    padding-bottom: 15%;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.app1 {
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    position: relative;
+    border-radius: 20px;
+    transform: translateX(1%);
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    background-color: rgba(0, 0, 0, 0.24);
+    transform: translateX(2%);
+    border-radius: 20px;
+    margin-left: -2%;
+}
+
+.section2 .txt1 {
+    font-family: "Calibri";
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 20px;
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+.section2 .txt2 {
+    font-size: 28px;
+    font-family: "Calibri";
+    font-weight: 900;
+    padding-top: 30px;
+    margin-left: 10%;
+    color: rgb(70, 70, 70);
+}
+
+.ide {
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.ide-txt {
+    margin-left: 180px;
+    margin-top: -120px;
+    font-size: 40px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(56, 56, 56);
+}
+
+.app-txt {
+    font-size: 22px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(70, 70, 70);
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+.app-txt1 {
+    font-size: 15px;
+    font-family: "Calibri";
+    font-weight: 900;
+    display: flex;
+    color: rgb(70, 70, 70);
+    margin-left: 180px;
+    margin-top: 2px;
+}
+
+.details {
+    font-size: 20px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+
+.details .size {
+    margin-left: 20px;
+}
+
+.details .downloads {
+    margin-left: 20px;
+}
+
+.v-dash1,
+.v-dash2 {
+    margin-left: 25px;
+}
+
+.rating1,
+.size1,
+.downloads1 {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Calibri";
+    color: rgb(126, 126, 126);
+}
+
+.rating1 {
+    margin-left: 8%;
+    position: fixed;
+    color: rgb(94, 94, 94);
+}
+
+.size1 {
+    margin-left: 40%;
+    position: fixed;
+    color: rgb(70, 70, 70);
+}
+
+.downloads1 {
+    margin-left: 71%;
+    position: fixed;
+    color: rgb(70, 70, 70);
+}
+
+.whats-new {
+    font-size: 22px;
+    font-family: "Calibri";
+    font-weight: 900;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: rgb(77, 77, 77);
+}
+
+.whats-new1 {
+    font-size: 17px;
+    font-family: "Calibri";
+    font-weight: 900;
+    margin-top: 25px;
+    margin-left: 5%;
+    color: rgb(70, 70, 70);
+}
+
+.update {
+    font-size: 12px;
+    font-family: "Calibri";
+    font-weight: 900px;
+    margin-left: 5%;
+    color: rgb(126, 126, 126);
+}
+
+.whats-new-txt {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgb(70, 70, 70);
+}
+
+.whats-new-txt1 {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 5%;
+    margin-top: 5px;
+    color: rgb(100, 100, 100);
+}
+
+.dash1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.dash2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.details-1 {
+    margin-top: 10px;
+}
+
+.download {
+    margin-top: 12%;
+    margin-left: 16%;
+    margin-bottom: 8%;
+    width: 250px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: 16px;
+    background: transparent;
+    color: rgb(66, 64, 64);
+    transition: 0.5s;
+}
+
+.download:hover {
+    background-color: rgb(32, 32, 32);
+    border-color: rgb(22, 22, 22);
+    color: rgb(109, 109, 109);
+}
+
+.section3 {
+    background-color: #181818;
+    width: 96%;
+    height: 100%;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    transform: translate(3.2%);
+}
+
+.about-us {
+    font-size: 28px;
+    font-family: "Calibri";
+    text-align: center;
+    font-weight: 900;
+    padding-top: 30px;
+    color: rgb(73, 73, 73);
+}
+
+.founder {
+    width: 100px;
+    filter: invert(47%) sepia(60%) saturate(0%) hue-rotate(209deg) brightness(97%) contrast(86%);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 15%;
+}
+
+.founder-txt {
+    font-size: 26px;
+    font-family: "Calibri";
+    font-weight: 900;
+    margin-top: -100px;
+    margin-left: 180px;
+    display: flex;
+    color: rgb(131, 131, 131);
+}
+
+.founder-txt1 {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Calibri";
+    margin-left: 180px;
+    margin-top: 10px;
+    color: rgb(73, 73, 73);
+}
+
+.ceo-contact {
+    margin-top: 15%;
+    margin-left: 50px;
+    margin-bottom: 10%;
+    width: 250px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: 17px;
+    background: transparent;
+    color: rgb(73, 73, 73);
+    transition: 0.5s;
+}
+
+.ceo-contact:hover {
+    background-color: rgba(168, 168, 168, 0.301);
+    color: rgb(26, 26, 26);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: -8px;
+    width: 398px;
+    height: 90%;
+    z-index: -1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.insta {
+    width: 40px;
+    display: flex;
+}
+
+.fb {
+    width: 32px;
+    display: flex;
+    margin-top: -37px;
+    margin-left: 70px;
+}
+
+.twit {
+    width: 36px;
+    display: flex;
+    margin-top: -34px;
+    margin-left: 140px;
+}
+
+.icon-txt,
+.txt-2,
+.txt-3,
+.txt-4 {
+    font-size: 20px;
+    font-family: "Calibri";
+    font-weight: 600;
+    margin-top: 10%;
+    margin-left: 20px;
+    color: rgb(44, 44, 44);
+}
+
+.courses,
+.about,
+.contact {
+    margin-left: 20px;
+    margin-top: 4%;
+}
+
+.courses a,
+.about a,
+.contact a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Calibri";
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+    line-height: 40px;
+    margin-top: -4%;
+}
+
+.courses a:hover,
+.about a:hover,
+.contact a:hover {
+    color: rgb(112, 112, 112);
+}
+
+.dash {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(66, 64, 64);
+}
+
+.copywrite {
+    margin-top: 30px;
+    margin-left: 12%;
+    font-size: 17px;
+    font-family: "Calibri";
+    font-weight: 600;
+    color: rgb(66, 64, 64);
+}
+
+.copywrite span {
+    margin-left: 40px;
+}
